@@ -1,0 +1,89 @@
+{
+  "model": "RandomForestRegressor",
+  "window_size": 30,
+  "horizon": 3,
+  "random_forest": {
+    "overall_rmse": 3.4690429501074154,
+    "overall_mae": 2.4764148965193655,
+    "by_target": {
+      "day_1_temperature_2m_max": {
+        "rmse": 2.3460139567791636,
+        "mae": 1.7977521039596775
+      },
+      "day_1_temperature_2m_min": {
+        "rmse": 2.7072695366982673,
+        "mae": 2.138770508723247
+      },
+      "day_1_precipitation_sum": {
+        "rmse": 4.144629931666778,
+        "mae": 2.699838393747798
+      },
+      "day_2_temperature_2m_max": {
+        "rmse": 2.9270084826116873,
+        "mae": 2.249881622758588
+      },
+      "day_2_temperature_2m_min": {
+        "rmse": 3.3641170536967095,
+        "mae": 2.62821033290749
+      },
+      "day_2_precipitation_sum": {
+        "rmse": 4.192400529823417,
+        "mae": 2.732067341408442
+      },
+      "day_3_temperature_2m_max": {
+        "rmse": 3.1601207981069694,
+        "mae": 2.444072795948819
+      },
+      "day_3_temperature_2m_min": {
+        "rmse": 3.6537238185918643,
+        "mae": 2.857967046097193
+      },
+      "day_3_precipitation_sum": {
+        "rmse": 4.183340554522565,
+        "mae": 2.7391739231230274
+      }
+    }
+  },
+  "persistence_baseline": {
+    "overall_rmse": 4.310057902290148,
+    "overall_mae": 2.733363151550293,
+    "by_target": {
+      "day_1_temperature_2m_max": {
+        "rmse": 2.470562330011317,
+        "mae": 1.8160442113876343
+      },
+      "day_1_temperature_2m_min": {
+        "rmse": 2.9816660144933844,
+        "mae": 2.155601739883423
+      },
+      "day_1_precipitation_sum": {
+        "rmse": 5.173755499796998,
+        "mae": 2.830981969833374
+      },
+      "day_2_temperature_2m_max": {
+        "rmse": 3.3125688077869784,
+        "mae": 2.474688768386841
+      },
+      "day_2_temperature_2m_min": {
+        "rmse": 3.9764851560734096,
+        "mae": 2.9154908657073975
+      },
+      "day_2_precipitation_sum": {
+        "rmse": 5.554286421877252,
+        "mae": 3.0910093784332275
+      },
+      "day_3_temperature_2m_max": {
+        "rmse": 3.708345234598214,
+        "mae": 2.7962656021118164
+      },
+      "day_3_temperature_2m_min": {
+        "rmse": 4.4298573617812504,
+        "mae": 3.2073304653167725
+      },
+      "day_3_precipitation_sum": {
+        "rmse": 5.866565899995019,
+        "mae": 3.3128631114959717
+      }
+    }
+  }
+}
